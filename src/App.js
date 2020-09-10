@@ -15,7 +15,6 @@ function App() {
     <div className="App">
       <img className="App__Londonimg" src={London} alt="" />
       <div className="App__gradient">
-        <a href="https://xd.adobe.com/view/86965aff-eaa5-4211-8b48-d21a67093d70-d3c5/screen/9ada8a9c-ec61-4f76-a5ed-0a379291f870?fbclid=IwAR0lBOXNQ3niSJyQskWFQ-ZPcGXBbFpxZccf_2zBoZx1n-92tY-FuGwx8OY"></a>
         <div>logo</div>
         <div className="Headers">
           <Header />
