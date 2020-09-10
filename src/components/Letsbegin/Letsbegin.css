@@ -1,0 +1,32 @@
+.container-option {
+  display: flex;
+  justify-content: space-between;
+}
+.option {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  height: 50px;
+  align-items: center;
+  background-color: white;
+}
+.option__selection {
+  display: flex;
+  flex-direction: column;
+}
+.option__name {
+  color: #5da790;
+}
+.option__icon {
+  font-size: 35px;
+  padding: 10px;
+}
+.App__container__letsbegin__location,
+.App__container__letsbegin__group,
+.App__container__letsbegin__date {
+  border-right-style: outset;
+}
+.iconSearch {
+  font-size: 50px;
+  padding: 2px 5px 0px 2px;
+}
