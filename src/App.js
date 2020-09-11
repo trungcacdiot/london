@@ -15,11 +15,15 @@ function App() {
     <div className="App">
       <img className="App__Londonimg" src={London} alt="" />
       <div className="App__gradient">
-        <div>logo</div>
+        <div className="App__logo">
+          <div className="logo">logo</div>
+          <div>
+            <button className="signin">sign in</button>
+          </div>
+        </div>
         <div className="Headers">
           <Header />
         </div>
-        <div>sign in</div>
       </div>
       <div className="App__container">
         <div className="App__container__letsbegin">
