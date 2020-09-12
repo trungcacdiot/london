@@ -13,7 +13,7 @@ import Header from "./components/Headers/Header";
 function App() {
   return (
     <div className="App">
-      <img className="App__Londonimg" src={London} alt="" />
+         <img className="App__Londonimg" src={London} alt="" />
       <div className="App__gradient">
         <div className="App__logo">
           <div className="logo">logo</div>
@@ -25,6 +25,9 @@ function App() {
           <Header />
         </div>
       </div>
+      <div className="App__slogan"><p id="first"><span >Discover</span> the real London.</p>
+       <p id="second">Creat a bestpoke intinerary in the city of London for you and up to three friends.</p> </div>
+   
       <div className="App__container">
         <div className="App__container__letsbegin">
           <div className="App__container__letsbegin__location">
