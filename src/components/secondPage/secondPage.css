@@ -1,0 +1,44 @@
+.blockContainer {
+  display: flex;
+  width: 400px;
+  background-color: white;
+  height: 75px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blockContainer__icon {
+  font-size: 40px;
+  color: #5da790;
+}
+.title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.contents {
+  font-size: 17;
+  font-weight: 100;
+}
+.secondPage {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.content {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.button1,
+.button2 {
+  padding: 15px 20px 15px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5ba48d;
+  color: white;
+  font-size: 18px;
+}
+.button1 {
+  margin-right: 20px;
+}

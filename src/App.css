@@ -72,23 +72,29 @@
 .Headers {
   width: 42%;
 }
-.App__slogan{
+.App__slogan {
   position: absolute;
   left: 0px;
   top: 0px;
- width: 100%;
- height: 45%;
- color: white;
+  width: 100%;
+  height: 45%;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#first{
+#first {
   font-size: 45px;
   padding: 30px 0px 20px 0px;
 }
-#first span{
+#first span {
   color: green;
   font-weight: 700;
+}
+
+.secondPage {
+  height: 500px;
+  width: 100%;
+  background-color: #eef6f4;
 }
