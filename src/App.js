@@ -11,7 +11,7 @@ import Letsbegin from "./components/Letsbegin/Letsbegin";
 import Header from "./components/Headers/Header";
 import SecondPage from "./components/secondPage/secondPage";
 import ThirdPage from "./components/thirdPage/thirdPage";
-
+import Page4 from "./components/page4/page4";
 function App() {
   return (
     <div className="App">
@@ -69,9 +69,11 @@ function App() {
       <div className="App__secondPage">
         <SecondPage />
       </div>
-
       <div className="App__thirdPage">
         <ThirdPage />
+      </div>
+      <div className="App__page4">
+        <Page4 />
       </div>
     </div>
   );

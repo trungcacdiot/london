@@ -35,9 +35,16 @@
   padding: 15px 20px 15px 20px;
   border: none;
   border-radius: 10px;
+  background-color: white;
+  font-size: 18px;
+}
+.button1:hover {
   background-color: #5ba48d;
   color: white;
-  font-size: 18px;
+}
+.button2:hover {
+  background-color: #5ba48d;
+  color: white;
 }
 .button1 {
   margin-right: 20px;

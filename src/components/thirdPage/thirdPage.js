@@ -3,6 +3,7 @@ import "./thirdPage.css";
 import Box from "./box";
 import Travel from "./travel.jpg";
 import { GrMapLocation } from "react-icons/gr";
+import { FcMusic } from "react-icons/fc";
 class ThirdPage extends Component {
   render() {
     return (
@@ -24,16 +25,22 @@ class ThirdPage extends Component {
             img={<img className="box__img" src={Travel} />}
             title="Travel like a local"
             icon={<GrMapLocation />}
+            icon1={<FcMusic />}
+            location="Hackney"
           />
           <Box
             img={<img className="box__img" src={Travel} />}
             title="Travel like a local"
             icon={<GrMapLocation />}
+            icon1={<FcMusic />}
+            location="Tower Hamlets"
           />
           <Box
             img={<img className="box__img" src={Travel} />}
             title="Travel like a local"
             icon={<GrMapLocation />}
+            icon1={<FcMusic />}
+            location="Kensingtom and Chelsea"
           />
         </div>
       </div>

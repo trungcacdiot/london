@@ -98,3 +98,11 @@
   width: 100%;
   background-color: #eef6f4;
 }
+.App__thirdPage {
+  height: 800px;
+}
+.App__page4 {
+  width: 100%;
+  height: 800px;
+  background-color: #eef6f4;
+}
