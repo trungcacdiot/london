@@ -43,11 +43,16 @@
   margin-right: 20px;
 }
 
-.experience{
+.experience {
   color: #5ba48d;
-  font-size: 40px;;
+  font-size: 40px;
 }
-.lage_font{
+.lage_font {
   font-size: 25px;
   font-weight: 550;
+}
+
+.block2,
+.block4 {
+  margin: 10px 0px 10px 15px;
 }

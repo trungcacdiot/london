@@ -1,0 +1,37 @@
+.box {
+  width: 300px;
+  height: 400px;
+  padding: 20px 10px 0px 0px;
+}
+.box__img {
+  width: 100%;
+  height: 250px;
+  padding-bottom: 20px;
+}
+.thirdPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thirdPage__box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.box__icon {
+  position: relative;
+  left: 15px;
+  top: 65px;
+  padding: 10px;
+  font-size: 30px;
+  background-color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 42px;
+}
+.title {
+  color: #5ba48d;
+}
+.box__title {
+  padding-bottom: 10px;
+}

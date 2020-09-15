@@ -10,6 +10,7 @@ import London from "./london.jpg";
 import Letsbegin from "./components/Letsbegin/Letsbegin";
 import Header from "./components/Headers/Header";
 import SecondPage from "./components/secondPage/secondPage";
+import ThirdPage from "./components/thirdPage/thirdPage";
 
 function App() {
   return (
@@ -67,6 +68,10 @@ function App() {
       </div>
       <div className="App__secondPage">
         <SecondPage />
+      </div>
+
+      <div className="App__thirdPage">
+        <ThirdPage />
       </div>
     </div>
   );
