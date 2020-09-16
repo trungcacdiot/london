@@ -42,7 +42,7 @@ function App() {
             <Letsbegin name="LOCATION" icon={<GrMapLocation />}>
               3 Selecttions
             </Letsbegin>
-            <li className="location___list">
+            <li className="location__list">
               <ul>Nearby</ul>
               <ul>Soho</ul>
               <ul>Shoreditch</ul>
@@ -55,7 +55,7 @@ function App() {
             <Letsbegin name="GROUP" icon={<GrGroup />}>
               Group Size
             </Letsbegin>
-            <li className="location___list">
+            <li className="location__list">
               <ul>Nearby</ul>
               <ul>Soho</ul>
               <ul>Shoreditch</ul>
@@ -68,7 +68,7 @@ function App() {
             <Letsbegin name="DATE" icon={<FcCalendar />}>
               Select Date
             </Letsbegin>
-            <li className="location___list">
+            <li className="location__list">
               <ul>Nearby</ul>
               <ul>Soho</ul>
               <ul>Shoreditch</ul>
@@ -85,7 +85,7 @@ function App() {
             >
               Select at least 2 categories
             </Letsbegin>
-            <li className="location___list">
+            <li className="location__list">
               <ul>Nearby</ul>
               <ul>Soho</ul>
               <ul>Shoreditch</ul>

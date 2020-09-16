@@ -106,8 +106,7 @@
   height: 800px;
   background-color: #eef6f4;
 }
-
-.location___list {
+.location__list {
   list-style: none;
   position: relative;
   left: 0px;
@@ -116,15 +115,21 @@
   display: none;
   background-color: white;
 }
-.App__container__letsbegin__location:hover .location___list {
+.location__list ul {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: outset;
+}
+.App__container__letsbegin__location:hover .location__list {
   display: block;
 }
-.App__container__letsbegin__group:hover .location___list {
+.App__container__letsbegin__group:hover .location__list {
   display: block;
 }
-.App__container__letsbegin__date:hover .location___list {
+.App__container__letsbegin__date:hover .location__list {
   display: block;
 }
-.App__container__letsbegin__interests:hover .location___list {
+.App__container__letsbegin__interests:hover .location__list {
   display: block;
 }
