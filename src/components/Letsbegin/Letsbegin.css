@@ -1,6 +1,9 @@
 .container-option {
   display: flex;
   justify-content: space-between;
+  background-color: white;
+  height: 70px;
+  align-items: center;
 }
 .option {
   display: flex;
@@ -22,11 +25,7 @@
   padding: 10px;
   color: #5da790;
 }
-.App__container__letsbegin__location,
-.App__container__letsbegin__group,
-.App__container__letsbegin__date {
-  border-right-style: outset;
-}
+
 .iconSearch {
   font-size: 50px;
   padding: 2px 5px 0px 2px;

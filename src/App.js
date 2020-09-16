@@ -42,17 +42,39 @@ function App() {
             <Letsbegin name="LOCATION" icon={<GrMapLocation />}>
               3 Selecttions
             </Letsbegin>
+            <li className="location___list">
+              <ul>Nearby</ul>
+              <ul>Soho</ul>
+              <ul>Shoreditch</ul>
+              <ul>Kensington&Chelsea</ul>
+              <ul>Notting Hill</ul>
+            </li>
           </div>
+
           <div className="App__container__letsbegin__group">
             <Letsbegin name="GROUP" icon={<GrGroup />}>
               Group Size
             </Letsbegin>
+            <li className="location___list">
+              <ul>Nearby</ul>
+              <ul>Soho</ul>
+              <ul>Shoreditch</ul>
+              <ul>Kensington&Chelsea</ul>
+              <ul>Notting Hill</ul>
+            </li>
           </div>
 
           <div className="App__container__letsbegin__date">
             <Letsbegin name="DATE" icon={<FcCalendar />}>
               Select Date
             </Letsbegin>
+            <li className="location___list">
+              <ul>Nearby</ul>
+              <ul>Soho</ul>
+              <ul>Shoreditch</ul>
+              <ul>Kensington&Chelsea</ul>
+              <ul>Notting Hill</ul>
+            </li>
           </div>
 
           <div className="App__container__letsbegin__interests">
@@ -63,6 +85,13 @@ function App() {
             >
               Select at least 2 categories
             </Letsbegin>
+            <li className="location___list">
+              <ul>Nearby</ul>
+              <ul>Soho</ul>
+              <ul>Shoreditch</ul>
+              <ul>Kensington&Chelsea</ul>
+              <ul>Notting Hill</ul>
+            </li>
           </div>
         </div>
       </div>
