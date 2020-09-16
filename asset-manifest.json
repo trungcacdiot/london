@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/london/static/css/main.778b8658.chunk.css",
-    "main.js": "/london/static/js/main.e594b693.chunk.js",
-    "main.js.map": "/london/static/js/main.e594b693.chunk.js.map",
+    "main.css": "/london/static/css/main.45714c39.chunk.css",
+    "main.js": "/london/static/js/main.e1fa103e.chunk.js",
+    "main.js.map": "/london/static/js/main.e1fa103e.chunk.js.map",
     "runtime-main.js": "/london/static/js/runtime-main.5d110b8c.js",
     "runtime-main.js.map": "/london/static/js/runtime-main.5d110b8c.js.map",
     "static/js/2.51ebdfdb.chunk.js": "/london/static/js/2.51ebdfdb.chunk.js",
     "static/js/2.51ebdfdb.chunk.js.map": "/london/static/js/2.51ebdfdb.chunk.js.map",
     "index.html": "/london/index.html",
-    "precache-manifest.561d5cef0bdd92d7df11c618bea60964.js": "/london/precache-manifest.561d5cef0bdd92d7df11c618bea60964.js",
+    "precache-manifest.fbe6a87a04d3e7313b6742ded41c7398.js": "/london/precache-manifest.fbe6a87a04d3e7313b6742ded41c7398.js",
     "service-worker.js": "/london/service-worker.js",
-    "static/css/main.778b8658.chunk.css.map": "/london/static/css/main.778b8658.chunk.css.map",
+    "static/css/main.45714c39.chunk.css.map": "/london/static/css/main.45714c39.chunk.css.map",
     "static/js/2.51ebdfdb.chunk.js.LICENSE.txt": "/london/static/js/2.51ebdfdb.chunk.js.LICENSE.txt",
     "static/media/london.jpg": "/london/static/media/london.a3a103e6.jpg",
     "static/media/travel.jpg": "/london/static/media/travel.39349524.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.5d110b8c.js",
     "static/js/2.51ebdfdb.chunk.js",
-    "static/css/main.778b8658.chunk.css",
-    "static/js/main.e594b693.chunk.js"
+    "static/css/main.45714c39.chunk.css",
+    "static/js/main.e1fa103e.chunk.js"
   ]
 }
