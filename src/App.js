@@ -4,6 +4,7 @@ import { GrMapLocation } from "react-icons/gr";
 import { GrGroup } from "react-icons/gr";
 import { FcCalendar, FcSearch } from "react-icons/fc";
 import { FaCity } from "react-icons/fa";
+import { CgBrowser, CgAirplane, CgShapeCircle, CgCheckO } from "react-icons/cg";
 // import local src
 import "./App.css";
 import London from "./london.jpg";
@@ -43,24 +44,45 @@ function App() {
               3 Selecttions
             </Letsbegin>
             <li className="location__list">
-              <ul>Nearby</ul>
-              <ul>Soho</ul>
-              <ul>Shoreditch</ul>
-              <ul>Kensington&Chelsea</ul>
-              <ul>Notting Hill</ul>
+              <ul>
+                <CgCheckO />
+                Nearby
+              </ul>
+              <ul>
+                <CgCheckO />
+                Soho
+              </ul>
+              <ul>
+                <CgCheckO />
+                Shoreditch
+              </ul>
+              <ul>
+                <CgCheckO />
+                Kensington&Chelsea
+              </ul>
+              <ul>
+                <CgCheckO />
+                Notting Hill
+              </ul>
             </li>
           </div>
-
           <div className="App__container__letsbegin__group">
             <Letsbegin name="GROUP" icon={<GrGroup />}>
               Group Size
             </Letsbegin>
             <li className="location__list">
-              <ul>Nearby</ul>
-              <ul>Soho</ul>
-              <ul>Shoreditch</ul>
-              <ul>Kensington&Chelsea</ul>
-              <ul>Notting Hill</ul>
+              <ul>
+                <CgCheckO />
+                Riding Solo
+              </ul>
+              <ul>
+                <CgCheckO />
+                Two to three
+              </ul>
+              <ul>
+                <CgCheckO />
+                Four or more
+              </ul>
             </li>
           </div>
 
@@ -85,13 +107,90 @@ function App() {
             >
               Select at least 2 categories
             </Letsbegin>
-            <li className="location__list">
-              <ul>Nearby</ul>
-              <ul>Soho</ul>
-              <ul>Shoreditch</ul>
-              <ul>Kensington&Chelsea</ul>
-              <ul>Notting Hill</ul>
-            </li>
+            <div className="App__container__interested">
+              <div className="row">
+                <div className="div_colum">
+                  <div className="element">
+                    <p>
+                      <CgBrowser />
+                    </p>
+                    Alfresco
+                  </div>
+                  <div className="element">
+                    <p>
+                      <CgAirplane />
+                    </p>
+                    Cultural
+                  </div>
+                  <div className="element">
+                    <p>
+                      <CgBrowser />
+                    </p>
+                    Fashionista
+                  </div>
+                </div>
+                <div className="div_colum">
+                  <div className="element">
+                    <p>
+                      <CgAirplane />
+                    </p>
+                    Alfresco
+                  </div>
+                  <div className="element">
+                    <p>
+                      <CgBrowser />
+                    </p>
+                    Cultural
+                  </div>
+                  <div className="element">
+                    <p>
+                      <CgAirplane />
+                    </p>
+                    Fashionista
+                  </div>
+                </div>
+                <div className="div_colum">
+                  <div className="element">
+                    <p>
+                      <CgAirplane />
+                    </p>
+                    Alfresco
+                  </div>
+                  <div className="element">
+                    <p>
+                      <CgBrowser />
+                    </p>
+                    Cultural
+                  </div>
+                  <div className="element">
+                    <p>
+                      <CgAirplane />
+                    </p>
+                    Fashionista
+                  </div>
+                </div>
+                <div className="div_colum">
+                  <div className="element">
+                    <p>
+                      <CgAirplane />
+                    </p>
+                    Alfresco
+                  </div>
+                  <div className="element">
+                    <p>
+                      <CgBrowser />
+                    </p>
+                    Cultural
+                  </div>
+                  <div className="element">
+                    <p>
+                      <CgAirplane />
+                    </p>
+                    Fashionista
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
