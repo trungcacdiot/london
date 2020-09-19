@@ -28,7 +28,17 @@ class Page4 extends Component {
             content="Single Line Subheading"
           />
           <Category
-            icon={<FcBusinesswoman />}
+            icon={<FcBusinessman />}
+            title="Alfresco"
+            content="Single Line Subheading"
+          />
+          <Category
+            icon={<FcButtingIn />}
+            title="Alfresco"
+            content="Single Line Subheading"
+          />
+          <Category
+            icon={<FcBiohazard />}
             title="Alfresco"
             content="Single Line Subheading"
           />
@@ -38,7 +48,7 @@ class Page4 extends Component {
             content="Single Line Subheading"
           />
           <Category
-            icon={<FcBusinesswoman />}
+            icon={<FcBusinessman />}
             title="Alfresco"
             content="Single Line Subheading"
           />
@@ -48,7 +58,12 @@ class Page4 extends Component {
             content="Single Line Subheading"
           />
           <Category
-            icon={<FcBusinesswoman />}
+            icon={<FcBiohazard />}
+            title="Alfresco"
+            content="Single Line Subheading"
+          />
+          <Category
+            icon={<FcBiohazard />}
             title="Alfresco"
             content="Single Line Subheading"
           />
@@ -58,22 +73,7 @@ class Page4 extends Component {
             content="Single Line Subheading"
           />
           <Category
-            icon={<FcBusinesswoman />}
-            title="Alfresco"
-            content="Single Line Subheading"
-          />
-          <Category
-            icon={<FcBusinesswoman />}
-            title="Alfresco"
-            content="Single Line Subheading"
-          />
-          <Category
-            icon={<FcBusinesswoman />}
-            title="Alfresco"
-            content="Single Line Subheading"
-          />
-          <Category
-            icon={<FcBusinesswoman />}
+            icon={<FcBiohazard />}
             title="Alfresco"
             content="Single Line Subheading"
           />
