@@ -13,7 +13,8 @@ import Header from "./components/Headers/Header";
 import SecondPage from "./components/secondPage/secondPage";
 import ThirdPage from "./components/thirdPage/thirdPage";
 import Page4 from "./components/page4/page4";
-import Page5 from "./components/page5/Page5"
+import Page5 from "./components/page5/Page5";
+import Page6 from "./components/page6/Page6";
 function App() {
   return (
     <div className="App">
@@ -204,7 +205,12 @@ function App() {
       <div className="App__page4">
         <Page4 />
       </div>
-      <div className="APP__page5"><Page5/></div>
+      <div className="App__page5">
+        <Page5 />
+      </div>
+      <div className="App__page6">
+        <Page6 />
+      </div>
     </div>
   );
 }
