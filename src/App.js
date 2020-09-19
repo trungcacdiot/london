@@ -15,6 +15,7 @@ import ThirdPage from "./components/thirdPage/thirdPage";
 import Page4 from "./components/page4/page4";
 import Page5 from "./components/page5/Page5";
 import Page6 from "./components/page6/Page6";
+import Page7 from "./components/page7/Page7";
 function App() {
   return (
     <div className="App">
@@ -210,6 +211,9 @@ function App() {
       </div>
       <div className="App__page6">
         <Page6 />
+      </div>
+      <div className="App_page7">
+        <Page7 />
       </div>
     </div>
   );
